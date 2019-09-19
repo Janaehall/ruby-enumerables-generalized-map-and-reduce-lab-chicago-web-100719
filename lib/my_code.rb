@@ -23,4 +23,4 @@ def reduce(array, sp = nil)
   total
 end
 
-puts reduce([1,2,3]){|waloo| waloo + 2}
+puts reduce([1,2,3]){|waloo, friend| friend + waloo + 2}
